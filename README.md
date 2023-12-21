@@ -45,7 +45,7 @@ If you encounter any issues or have questions about the plugin, feel free to rea
 
 ## Contributions
 
-We welcome contributions to enhance the functionality and usability of the Abandoned Cart Recovery plugin. Visit our [GitHub repository]([https://github.com/your-username/abandoned-cart-recovery](https://github.com/dominic-g/woo-abandoned-cart-reminder/)) to get involved.
+We welcome contributions to enhance the functionality and usability of the Abandoned Cart Recovery plugin. Visit our [GitHub repository](https://github.com/dominic-g/woo-abandoned-cart-reminder/) to get involved.
 
 Thank you for choosing our Abandoned Cart Recovery plugin. We hope it proves to be a valuable asset in optimizing your sales and customer engagement strategies!
 
