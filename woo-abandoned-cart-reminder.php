@@ -46,6 +46,15 @@ if ( ! defined( 'WACR_PLUGIN' ) ) {
     define( 'WACR_PLUGIN', 'woo-abandoned-cart-reminder/woo-abandoned-cart-reminder.php' );
 }
 
+
+if ( ! defined( 'WACR_PLUGIN_DIR' ) ) {
+    define( 'WACR_PLUGIN_DIR', plugin_dir_path(__FILE__) );
+}
+
+if ( ! defined( 'WACR_PLUGIN_URL' ) ) {
+    define( 'WACR_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+}
+
 if ( ! defined( 'WACR_PLUGIN_SLUG' ) ) {
     define( 'WACR_PLUGIN_SLUG', 'woo-abandoned-cart-reminder' );
 }
@@ -60,6 +69,9 @@ if ( ! defined( 'WACR_WOO_ERROR' ) ) {
 
 include_once( plugin_dir_path( __FILE__ ) . 'includes/functions.php' );
 
+
+//Include menu functionality
+include_once( plugin_dir_path( __FILE__ ) . 'includes/menu.php' );
 
 /**
  * Check if the plugin is activated and return.
@@ -119,3 +131,5 @@ function wacr_plugin__uninstall() {
     $table_name = $wpdb->prefix . 'deserted_carts';
     $wpdb->query("DROP TABLE IF EXISTS $table_name");
 }
+
+
